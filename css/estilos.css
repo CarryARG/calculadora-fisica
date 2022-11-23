@@ -1,0 +1,43 @@
+body{
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 80px auto auto auto;
+}
+
+main{
+    background-color: aqua;
+}
+
+article{
+    background-color: rgb(251, 255, 0);
+}
+
+footer{
+    background-color: rgb(255, 0, 179);
+}
+
+#encabezado{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.calculadora_icono{
+    width: 5px;
+    height: 5px;
+}
+
+.box{
+    width: 200px;
+    height: 64px;
+    text-align: center;
+
+}
+
+.creditos{
+    color: whitesmoke;
+    text-align: center;
+}
+  
