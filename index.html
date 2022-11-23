@@ -11,34 +11,79 @@
     <title>Pruebas JS</title>
 </head>
 <body>
-    <header>
-            <nav class="navbar navbar-expand-lg navbar-light position-fixed container-fluid" style="background-color: #e6620a">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#"><iconify-icon icon="tabler:brand-javascript" width="48" height="48"></iconify-icon></a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Calculadora</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link disabled" href="#">MRU (Proximamente)</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link disabled" href="#">MRUV (Proximamente)</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </nav>
+    <header id="encabezado">
+		<nav class="navbar navbar-expand-lg navbar-light position-fixed container-fluid" style="background-color: #f6c3a6">
+			<div class="container-fluid">
+			  <a class="navbar-brand" href="#"><iconify-icon icon="tabler:brand-javascript" width="48" height="48"></iconify-icon></a>
+			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+				  <li class="nav-item">
+					<a class="nav-link active" aria-current="page" href="#">Calculadora</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link disabled" href="#">MRU (Proximamente)</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link disabled" href="#">MRUV (Proximamente)</a>
+				  </li>
+				</ul>
+			  </div>
+			</div>
+		</nav>
     </header>
     <main>
-        <h1 class="container-fluid position-fixed justify-items-center align-items-center justify-content-center align-content-center box">hola mundo</h1>
+        <section class="container-fluid" id="bg_principal">
+			<img class="img_bg_1" src="./imagenes/img_bg_calculator.jpg">              
+        </section>
     </main>
     <article>
-        
+		<h1 class="titulo_main_index container">Calculadora simple con JavaScript</h1>
+		<div class="descripcion_box_main_index container">
+			<h4 class="descripcion_main_index container">En este articulo presento para la primer pre-entrega del curso JavaScript una calculadora simple que esta dentro de una pagina que quise hacer para mejorar la presentación del proyecto ya que sigo la carrera de Desarrollador Fullstacks.</h4>
+			<h4 class="descripcion_main_index container">Debajo de la Calculadora dejo los codigos que utilicé.</h4>
+			<h4 class="descripcion_main_index container">Espero que les guste y cumpla las normativas de entrega del proyecto.</h4>
+		</div>
+		<div class="accordion container" id="accordionPanelsStayOpenExample">
+		  <div class="accordion-item">
+			<h2 class="accordion-header" id="panelsStayOpen-headingOne">
+			  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+				Codigo HTML5
+			  </button>
+			</h2>
+			<div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+			  <div class="accordion-body">
+				<strong>Aca va el codigo</strong> 2 a 1 le gano Japon a Alemania <code>2 a 1 pa</code>, equis de.
+			  </div>
+			</div>
+		  </div>
+		  <div class="accordion-item">
+			<h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+			  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+				Codigo CSS3
+			  </button>
+			</h2>
+			<div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+			  <div class="accordion-body">
+				<strong>Aca va el codigo</strong> 2 a 1 le gano Japon a Alemania <code>2 a 1 pa</code>, equis de.
+			  </div>
+			</div>
+		  </div>
+		  <div class="accordion-item">
+			<h2 class="accordion-header" id="panelsStayOpen-headingThree">
+			  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+				Codigo JavaScript
+			  </button>
+			</h2>
+			<div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+			  <div class="accordion-body">
+				<strong>Aca va el codigo</strong> 2 a 1 le gano Japon a Alemania <code>2 a 1 pa</code>, equis de.
+			  </div>
+			</div>
+		  </div>
+		</div>
     </article>
     <footer>
         <div class="creditos">
