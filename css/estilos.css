@@ -1,20 +1,20 @@
 body{
     display: grid;
     height: 100vh;
-    grid-template-rows: 80px 150px auto 100px;
+    grid-template-rows: 80px 150px auto 180px;
 }
 
 main{
-    background-color: aqua;
+    /*background-color: aqua;*/
 	position: relative;
 }
 
 article{
-    background-color: #176da9;
+    background-color: #252837;
 }
 
 footer{
-    background-color: #f6aad6;
+    background-color: #A44145;
 }
 
 #encabezado{
@@ -43,6 +43,7 @@ footer{
   width: 100%;
   height: 100%;
   object-fit: cover;
+  margin: auto;
 }
 
 #bg_principal{
@@ -52,19 +53,22 @@ footer{
 }
 
 .titulo_main_index{
-	padding-top:20px;
+	padding-top:30px;
 	text-align: center;
+    color: beige;
 }
 
 .descripcion_main_index{
 	align-items: center;
-	background-color: gray;
+    padding-top:6px;
+	/*background-color: gray;*/
 }
 
 .descripcion_box_main_index{
 	padding-top:10px;
 	padding-bottom: 10px;
-	background-color: blue;
+    color: beige;
+	/*background-color: blue;*/
 }
 
 /*.footer {color: #f6aad6;}
@@ -72,3 +76,11 @@ footer{
 .main {color: #176da9;}
 .calculadora {color: #15978b;}
 .calculadora {color: #77cf92;}*/
+
+.boton_codigo{
+    color: #252837;    
+}
+
+.descripcion_codigo{
+    color: beige;   
+}
